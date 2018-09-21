@@ -1,0 +1,154 @@
+h2 {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.bodyContainer {
+	width: 98%;
+	overflow: auto;
+	position: relative;
+	left: 1%;
+	top: 1%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+p {
+    margin-left: 5px;
+}
+
+.newsBanner {
+    height: 170px;
+    position: relative;
+    top: 1%;
+    background-color: #E8D0A9;
+}
+
+.bodyContainer {
+    width: 75%;
+    float: left;
+}
+
+aside {
+    float: right;
+    width: 22%;
+    overflow: auto;
+    position: relative;
+    right: 1%;
+    top: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#articlesLeft {
+    float: left;
+    width: 49%;
+    position: relative;
+    top: 1%;
+}
+
+#articlesRight {
+    float: right;
+    width: 49%;
+    position: relative;
+    top: 1%;
+}
+
+section, article {
+    padding: 2px;
+    padding-left: 5px;
+    overflow: auto;
+}
+
+#bannerImage {
+    height: 70%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+#bannerText {
+    font-size: 15px;
+}
+
+#articlesRight {
+    font-size: 15px;
+}
+
+.section2, .section4 {
+    background-color: #6D929B;
+}
+
+.section3 {
+    background-color: #C1DAD6;
+}
+
+.section2Text {
+    width: 61%;
+    float: right;
+}
+
+.section3Text {
+    width: 61%;
+    float: left;
+}
+
+#section2Image {
+    float: left;
+    height: 147px;
+    width: 147px;
+    padding: 5px;
+    margin-top: 4%;
+}
+
+#section3Image {
+    float: right;
+    height: 147px;
+    width: 147px;
+    padding: 5px;
+    margin-top: 4%;
+}
+
+.article4 {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.article1>p>i {
+    color: blue;
+}
+
+#articlesRight article>p {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+aside>h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#loginDiv {
+    margin: auto;
+    width: 185px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#loginDiv>input {
+    width: 181px;
+    height: 25px;
+}
+
+#loginForm {
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+/* div, header, nav, footer, section, article, table, tr, td, aside {
+	border: 1px solid black;
+} */
+
+.mainContainer {
+	width: 90%;
+	min-width: 700px;
+	left: 5%;
+	position: absolute;
+}
+
+header {
+	background-color: white;
+}
+
+nav {
+	height: 40px;
+	background-color: white;
+}
+
+.navList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navList li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+
+li a:hover {
+	background-color: rgb(212, 212, 212);
+}
+
+#userGreet:hover {
+	background-color: white;
+}
+
+footer {
+	position: absolute;
+	bottom: -20px;
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+}
+
+h2 {
+	text-align: center;
+}

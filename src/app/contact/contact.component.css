@@ -1,0 +1,43 @@
+h2 {
+	text-align: center;
+}
+
+.bodyContainer {
+	width: 98%;
+	overflow: auto;
+	position: relative;
+	left: 1%;
+	top: 1%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.container1 {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #C1DAD6;
+    overflow: auto;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.container3 {
+    font-size: 15px;
+    width: 50%;
+    float: left;
+}
+
+.container1 div {
+    margin: 5px;
+    margin-left: 10px;
+}
+
+#map_canvas {
+    float: right;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}

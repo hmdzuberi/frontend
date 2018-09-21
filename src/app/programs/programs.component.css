@@ -1,0 +1,68 @@
+h2 {
+	text-align: center;
+}
+
+.bodyContainer {
+	width: 98%;
+	overflow: auto;
+	position: relative;
+	left: 1%;
+	top: 1%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.container1 {
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	background-color: #C1DAD6;
+	overflow: auto;
+}
+
+h3 {
+	margin-left: 15px;
+}
+
+.currencySelectDiv {
+	float: right;
+	width: 20%;
+	position: relative;
+	margin-right: 1%;
+	margin-top: 1%;
+	border-radius: 10px;
+	background-color: white;
+	overflow: auto;
+}
+
+#currencySelectTable {
+	margin: auto;
+	padding: 2px;
+}
+
+#currencySelect {
+	height: 26px;
+	width: 90px;
+}
+
+.canvasDiv {
+	width: 45%;
+	float: left;
+}
+
+.price {
+	position: relative;
+	float: right;
+	width: 30%;
+	padding-bottom: 50px;
+	right: 25%;
+	padding-top: 69px;
+}
+
+#price1 {
+	left: -39px;
+}
+
+#price4 {
+	margin-top: 82px;
+}

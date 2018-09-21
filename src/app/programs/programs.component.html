@@ -1,0 +1,33 @@
+<div class="bodyContainer">
+	<h2>Programs</h2>
+	<div class="container1">
+		<div class="currencySelectDiv">
+			<br>
+			<form [formGroup]=form>
+				<table id="currencySelectTable">
+					<tr>
+						<td>Currency: </td>
+						<td>
+							<select id="currencySelect" (change)="selectHandler(form)" formControlName="currencySelect">
+								<option value="1" selected>USD</option>
+								<option value="2">EUR</option>
+								<option value="3">CAD</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<br>
+		</div>
+		<div class="canvasDiv">
+			<canvas id="canvas" height="835px" width="510px"></canvas>
+		</div>
+		<div class="price" id="price1"></div><br>
+		<div class="price" id="price2"></div><br>
+		<div class="price" id="price3"></div><br>
+		<div class="price" id="price4"></div><br>
+		<div class="price" id="price5"></div><br>
+		<br>
+	</div>
+	<br>
+</div>

@@ -1,0 +1,34 @@
+<div class="mainContainer">
+	<header>
+		<img class="banner" src="../assets/banner.png">
+	</header>
+	<nav>
+		<ul class="navList">
+			<li>
+				<a routerLink=''>Home</a>
+			</li>
+			<li>
+				<a routerLink='/newsletter'>Newsletter</a>
+			</li>
+			<li>
+				<a routerLink='/programs'>Programs</a>
+			</li>
+			<li>
+				<a routerLink='/faculty'>Faculty</a>
+			</li>
+			<li>
+				<a routerLink='/registration'>Registration</a>
+			</li>
+			<li>
+				<a routerLink='/contactus'>Contact Us</a>
+			</li>
+			<li style="float:right">
+				<a id="userGreet"></a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	<router-outlet></router-outlet>
+	<br>
+	<footer>&copy; Rockford University 2018</footer>
+</div>

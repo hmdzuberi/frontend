@@ -1,0 +1,59 @@
+<div class="bodyContainer">
+	<h2>Registration</h2>
+	<div class="container1">
+		<br>
+		<form [formGroup]=form>
+			<table id="table1">
+				<tr>
+					<td class="col1">Course:</td>
+					<td>
+						<select id="inputCourse" formControlName="course" ngModel>
+							<option selected></option>
+							<option>Mechanical Engineering</option>
+							<option>Electrical Engineering</option>
+							<option>Chemical Engineering</option>
+							<option>Economics</option>
+							<option>Humanities</option>
+                        </select>
+                        <span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Name:</td>
+					<td>
+                        <input id="input1" type="text" formControlName="name" ngModel>
+                        <span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td>
+                        <input id="input2" type="email" formControlName="email" ngModel>
+                        <span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td>
+                        <input id="input3" type="text" formControlName="phone" ngModel>
+                        <span class="error"></span>
+					</td>
+				</tr>
+				<tr>
+					<br>
+					<td colspan="2" id="registerTd">
+						<button id="btn1" type="button" (click)="registerHandler(form)">Register</button>
+					</td>
+				</tr>
+			</table>
+			<div id="salut" hidden>Thank you for registering for
+				<span id="salutspan"></span>.</div>
+			<br>
+			<div class="btn2Div">
+				<button id="btn2" type="button" (click)="anotherCourse(form)" hidden>Register for Another Course</button>
+			</div>
+        </form>
+        <br>
+	</div>
+	<br>
+</div>
